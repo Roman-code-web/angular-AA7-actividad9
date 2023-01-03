@@ -1,1 +1,32 @@
-<p>form works!</p>
+<div class="container mt-5">
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            <form>
+                <div class="mb-3">
+                  <label for="numero1" class="form-label">Numero 1:</label>
+                  <input type="number" class="form-control" id="numero1">
+                </div>
+                <div class="mb-3">
+                  <label for="numero2" class="form-label">Numero 2</label>
+                  <input type="number" class="form-control" id="numero2">
+                </div>
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                          <option selected>selecciona una operacion a realizar...</option>
+                          <option value="+">Suma  </option>
+                          <option value="-">Resta </option>
+                          <option value="*">Multiplicación</option>
+                          <option value="/">División </option>
+                        </select>
+                        <label for="floatingSelect">operaciones</label>
+                      </div>
+                </div>
+            </form>
+            <div class="mt-5 mb-5">
+                <p class="fw-bold fs-5">Resultado:</p>
+                <p class="fw-bold fs-5"></p>
+            </div>
+        </div>
+    </div>
+</div>
